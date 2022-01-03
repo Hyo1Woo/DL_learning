@@ -30,6 +30,7 @@ Better 쳅터에서 저자는 기존 yolo 모델의 한계점으로 지적되었
  
 
 3. Convolutional With Anchor Boxes
+![3.con](./image/3.con.png)
 
 다음으로 기존 yolo에서 Fully Connected Layer를 떼어내고 Fully Convolutional Network 형태로 prediction을 계산합니다. 또한 앵커 박스의 개념을 도입합니다. 아래 기존 yolo 구조를 보시면 FC Layer를 두번 거쳐서 최종적으로 7x7x30 크기의 피쳐맵을 얻어냅니다. 7x7은 입력 이미지를 그리드 단위로 나눈 것이고 각 그리드 별 30차원 벡터는 5차원 벡터로 표기된 박스 두개와 20개의 클래스에 대한 스코어 값을 합친 것입니다.
 
