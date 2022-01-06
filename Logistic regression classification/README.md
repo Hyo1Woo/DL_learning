@@ -19,7 +19,7 @@ in logic : 0 or 1  --> 이런 경우에 linear hypothesis를 그대로 쓰기는
 ## Cost function
 ![image](https://user-images.githubusercontent.com/92671224/148328301-6c45780a-7f6c-475e-ae21-276cc2400390.png)   
 **Problem**   
-cost function이 구불구불해짐 --> Gradient descent 사용 불가능.  
+기존의 cost function사용 시에 구불구불해짐 --> Gradient descent 사용 불가능.  
 어디서 시작하느냐에 따라 값이 달라질 수 있음.  
 
 
