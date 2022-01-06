@@ -26,7 +26,9 @@ Hot encoding을 통해서 값 하나를 고르게 되는 것임
 
 ![image](https://user-images.githubusercontent.com/92671224/148342330-ba20bb82-9aaf-4bf1-8839-335821a24a89.png)  
 
-logistic cost 와 cross entropy는 같은 것임
+logistic cost 와 cross entropy는 같은 것임  
+
+![image](https://user-images.githubusercontent.com/92671224/148343755-19af817c-68bf-4482-ad27-9e02e6cfdacd.png)  
 
 
 ## Gradient descent
