@@ -23,3 +23,13 @@ Hot encoding을 통해서 값 하나를 고르게 되는 것임
 
 -log 함수  
 
+![image](https://user-images.githubusercontent.com/92671224/148342330-ba20bb82-9aaf-4bf1-8839-335821a24a89.png)  
+
+logistic cost 와 cross entropy는 같은 것임
+
+
+## Gradient descent
+
+![image](https://user-images.githubusercontent.com/92671224/148342646-88461f82-d6a4-45e9-a634-fddc53a07573.png)  
+
+사용가능
