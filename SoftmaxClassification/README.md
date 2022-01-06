@@ -11,6 +11,7 @@
 <img src="https://user-images.githubusercontent.com/92671224/148333953-a347487f-4ecf-474b-a76b-81028f11f73b.png"  width="50%"  height="50%"/>  
 
 Hot encoding을 통해서 값 하나를 고르게 되는 것임  
+? = argmax 함수
 
 
 ## Cost function  
