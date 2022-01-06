@@ -27,3 +27,25 @@ H(x) = Wx + b --> W와 b에 따라 선이 달라질 것
 기울기를 따라가서 결국 기울기가 0인 지점에 도달하게 함.  
 단, Convex function = 극솟값이 1개인 경우에만 최솟값에 안정적으로 도달 가능
 
+
+## multi variable linear regression
+
+만약 변수가 3개라면?!?!?!
+
+![image](https://user-images.githubusercontent.com/92671224/148326635-1f825835-71a3-462a-883a-7203192b88e2.png)
+
+그냥 cost function을 늘려주면됨  
+
+but, 갯수가 늘어갈수록 그냥 식을 늘려주기에는 너무 복잡함  
+### --> Matrix!!!
+
+![image](https://user-images.githubusercontent.com/92671224/148326744-0cce6860-5fff-4d59-8540-8edf340c323e.png)
+
+![image](https://user-images.githubusercontent.com/92671224/148326898-b68e07af-b92b-4d10-8b8e-56303ccdacea.png)
+
+instance가 많을 때, 각각 구할 필요 없이  
+instance를 추가해서 matrix 연산을 하면 됨  
+weight 변화 X
+
+
+
