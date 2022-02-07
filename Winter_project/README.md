@@ -60,4 +60,41 @@
 <br>
 
 ### Milestone  
-<img src="https://user-images.githubusercontent.com/92671224/150964739-c9cb1aae-bcc9-402a-b7da-7d48814bc8f0.png"  width=70% height=70%/>
+<img src="https://user-images.githubusercontent.com/92671224/150964739-c9cb1aae-bcc9-402a-b7da-7d48814bc8f0.png"  width=70% height=70%/>   
+
+<br>
+
+### 220207 중간발표   
+ **Model selection**   
+ - X-ray image augmentation에 적합한 Gan model 선정   
+ - non-paired image   
+ - non-conditional Gan   
+
+ <br>
+
+ **DCGAN**   
+ - generator와 discriminator에 CNN을 적용   
+ - 기존의 학습에 불안정한 부분을 해결 > 대부분의 상황에서 안정적인 학습 가능   
+ - BLACK BOX   
+  ![image](https://user-images.githubusercontent.com/92671224/152782717-0237daa2-eabb-4db8-afc1-fe4339863293.png)   
+
+ - Discriminator에 학습을 시킨 결과, 필터에서 침대나 창문같이 침실의 특정 부분에서 활성화 되는 필터들을 발견   
+ - X-ray 이미지에서 어떤 부분을 보고 이런 이미지를 만들어 냈는지에 대해 확인할 수 있을 것으로 기대 (잘 될지는 모르겠음)   
+
+ <br>
+
+ **현재진행**   
+ - DCGAN pytorch tutorial 코드 이해   
+ https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html   
+ 
+ <br>
+ 
+ **Future plan**   
+ - 모델 구현 및 augmentation한 X-ray image 생성   
+ 
+ <br>
+ 
+ **논의점**   
+ - GAN이라는 model 자체가 많은 학습데이터가 있어야 유의미한 data를 뽑을 수 있음   
+ - 과연 GAN augmentation이 실제 사용할만한 가치가 있는지 의문   
+ - 하지만 일단 계속해서 진행할 예정   
