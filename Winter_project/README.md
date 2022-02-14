@@ -98,3 +98,16 @@
  - GAN이라는 model 자체가 많은 학습데이터가 있어야 유의미한 data를 뽑을 수 있음   
  - 과연 GAN augmentation이 실제 사용할만한 가치가 있는지 의문   
  - 하지만 일단 계속해서 진행할 예정   
+
+<br>
+
+### 220214 중간발표   
+![image](https://user-images.githubusercontent.com/92671224/153860175-992bae10-c6cd-469f-ad0e-0d06f175e3eb.png)   
+
+![image](https://user-images.githubusercontent.com/92671224/153860205-3c6fcaf2-9215-4f35-887d-4a96baa73994.png)   
+
+![image](https://user-images.githubusercontent.com/92671224/153860244-d12e8e6f-8722-4041-b1e7-3ebb27945234.png)   
+
+
+
+
