@@ -106,6 +106,28 @@
 
 ![image](https://user-images.githubusercontent.com/92671224/153860205-3c6fcaf2-9215-4f35-887d-4a96baa73994.png)   
 
+<br>
 
+### 220228 최종발표
+ - DCGAN 모델 구현   
+    - 학습이 제대로 되지 않는 문제가 발생   
+    - learning rate, Ganerator와 Discriminator의 학습횟수를 조정   
+<img src = "https://user-images.githubusercontent.com/92671224/155977938-9edd29af-bb1b-40d5-8048-406f0748f4e5.png" width = 50% height = 50%>
+<img src = "https://user-images.githubusercontent.com/92671224/155978177-fca009ec-8365-4739-9a4f-16ba7fca5d1f.png" width = 50% height = 50%>
 
+<br>
 
+ - CNN 모델 구현
+    - Convolution layer 2개, Linear layer 1개
+    - input size = 64x64
+    - augmentation 이전 정확도 : 64.89%
+
+<br>
+
+- train
+   - normal 400개
+   - pneumonia 300개 + **gan augmentation 100개**
+
+- test
+   - normal 204개
+   - pneumonia 360개
