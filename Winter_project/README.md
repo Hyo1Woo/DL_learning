@@ -118,7 +118,7 @@
 <br>
 
  - CNN 모델 구현
-    - Convolution layer 2개, Linear layer 1개
+    - Convolution layer 2개, Linear layer 2개
     - input size = 64x64
     - augmentation 이전 정확도 : 64.89%
 
