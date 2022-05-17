@@ -5,6 +5,10 @@ visual recognition 분야에서 very deep model은 많은 이점이 있다.
 
 ### 그렇다면, layer를 쌓을수록 학습이 더 잘되는가?
 
+<br>
+
+<img src='https://user-images.githubusercontent.com/92671224/168717976-30cd210d-95ac-4670-aaa8-b8ff0fd31e4f.png' width=50%, height=50%>   
+
 아니다. 여러 장애물이 존재하는데, 
 
 대표적으로 vanishing gradient문제가 있다. 하지만 vanishing gradient의 경우 
