@@ -1,6 +1,6 @@
 ## RNN
-![image](https://user-images.githubusercontent.com/92671224/169951799-64d88bb6-edfc-496d-b7ae-a7c03ec03200.png)
-![image](https://user-images.githubusercontent.com/92671224/169951874-31364f27-a70c-40a8-9caa-83d6a2f7f805.png)
+![image](https://user-images.githubusercontent.com/92671224/169951799-64d88bb6-edfc-496d-b7ae-a7c03ec03200.png)   
+![image](https://user-images.githubusercontent.com/92671224/169951874-31364f27-a70c-40a8-9caa-83d6a2f7f805.png)   
 
 <br>
 
