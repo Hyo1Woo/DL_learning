@@ -74,7 +74,10 @@
     - [MASK]
 - pre-train
     - Masked LM
+       - input word 중 15% 정도를 mask함
+       - mask된 word를 맞추면서 학습
     - NSP (classification)
+       - 두 문장이 이어지는 문장인지 아닌지를 classification하면서 학습
 
 <br>
 
