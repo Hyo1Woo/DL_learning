@@ -31,13 +31,13 @@
 <br>
 
 ### Pretrain? Fine-tunned?
-#### Pretrain (다양하고 많은 경험 혹은 지식)
+#### Pretrain (다양하고 많은 경험 혹은 지식) - Upstream task
 - 대량의 dataset(특정task에 국한되지 않은)을 통해서 사전에 학습을 진행함
 - dataset 자체가 양이 많기 때문에 학습을 하는데 computing power가 많이 소모됨
 - 수 일 혹은 수 주까지도 학습을 하기도 함
 - 이렇게 학습된 데이터를 가져다 쓰는 것을 Transfer learning이라고도 함
 
-#### Fine-tunned (특정 분야에 대한 경험 혹은 지식)
+#### Fine-tunned (특정 분야에 대한 경험 혹은 지식) - Downstream task
 - Pretraining된 model을 내가 원하는 task에 맞게 추가학습을 시키는 것을 뜻함
 - 단어 그대로를 풀어보자면 '미세조정' 정도라고 볼 수 있음
 - 이미 대량의 dataset에서 pretrain된 model을 추가학습하기 때문에 많은 computing power가 필요없음
