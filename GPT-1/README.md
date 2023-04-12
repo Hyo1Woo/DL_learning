@@ -25,8 +25,12 @@
 - Word-embedding 기반의 semi-supervised learning(pre-training -> fine-tuning)이 효과적임이 이전부터 보여졌음
 - 그러나 해당 embedding은 word-level representation 수준인 것이 한계점
 
+<br>
+
 ### Unsupervised Learning
 - unsupervised learning은 supervised learning이전에 좋은 initial point를 찾아주는 작업
+
+<br>
 
 ### Auxiliary training objectives
 - semi-supervised learning의 대안으로 사용되는 방법 중 하나
@@ -43,9 +47,14 @@
 3. transformer decoder
 4. softmax
 
+<br>
+
 ### Autoregressive
 <img width="340" alt="스크린샷 2023-04-12 오후 4 48 07" src="https://user-images.githubusercontent.com/92671224/231389230-7fe6491f-32c9-4648-83d6-e82fdaa690d0.png">
+
 ![image](https://user-images.githubusercontent.com/92671224/231387729-de330e6a-2c77-42f8-ab38-2b4f71c8927d.png)
+
+<br>
 
 ### Supervised fine-tuning
 <img width="295" alt="스크린샷 2023-04-12 오후 4 49 33" src="https://user-images.githubusercontent.com/92671224/231389407-7281d022-fad8-4428-a363-38c0ff4df579.png">
@@ -53,6 +62,8 @@
 
 - fine-tuning시에 pre-traing에서 활동했던 loss를 auxiliary training objectives로 추가해 lambda(λ)로 가중치를 주면서 jointly하게 학습
 - supervised model의 generalization, convergence acceleration에 이점
+
+<br>
 
 ### Task-specific input transformations
 <img width="642" alt="스크린샷 2023-04-12 오후 4 53 32" src="https://user-images.githubusercontent.com/92671224/231390374-f10b3319-b6f2-42ba-bd65-21d4b502df06.png">
