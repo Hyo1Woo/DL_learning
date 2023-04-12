@@ -74,11 +74,25 @@
 <br>
 
 ### 그래서 bert와 차이가 뭔데?
-- GPT-1: Transformer 디코더 구조를 사용하여 다음 단어를 예측하고 ***문장을 생성***하는 것에 중점을 둠
-- BERT: Transformer 인코더 구조를 사용하여 입력 시퀀스의 모든 단어를 동시에 처리하고, 이를 기반으로 ***문장의 의미***를 파악
+
+![image](https://user-images.githubusercontent.com/92671224/231394068-50263f5f-2573-4077-84bd-e233d1be95f2.png)
+
+- GPT-1: maked attention layer를 항상 사용
+- BERT: bi-directional하게 attention을 사용
+
+- 구조에 따라 학습하는 방법도 달라짐
+    - GPT-1: 다음 단어 예측
+    - BERT: 문장 내에서 Mask된 단어를 예측
+
+- GPT-1: Transformer ***디코더 구조***를 사용하여 다음 단어를 예측하고 ***문장을 생성***하는 것에 중점을 둠
+- BERT: Transformer ***인코더 구조***를 사용하여 입력 시퀀스의 모든 단어를 동시에 처리하고, 이를 기반으로 ***문장의 의미***를 파악
 
 <br>
 
 ### Zero-shot
 - pre-training만으로 여러 task들을 커버하겠다는 것
+- 결국 openai가 나아가고자하는 방향
+    - GPT-2: Language Models are Unsupervised Multitask Learners
+    - GPT-3: Language Models are Few-Shot Learners
+
 <img width="643" alt="스크린샷 2023-04-12 오후 5 01 39" src="https://user-images.githubusercontent.com/92671224/231392426-50ba44d0-5c4c-4731-a77f-3e0ea93a2d96.png">
