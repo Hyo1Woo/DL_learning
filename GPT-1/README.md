@@ -1,6 +1,8 @@
 # Improving Language Understanding by Generative Pre-Training
 ##### Bert 이전에 openai에서 제시한 논문
-##### 본 논문이 처음 제시한 것처럼 말하는 것이 많으나, Bert에서도 유사하게 다 차용하였음.
+##### 본 논문이 처음 제시한 것이 많으나, Bert에서도 유사하게 다 차용하였음
+##### 항상 그렇듯 experiment나 수식보다는 이해를 위한 이해(?)를 추구하였음
+
 ## Abstract
 - pre-training과 fine-tunning을 이용하여 NLP분야에서 다양한 작업에서 높은 성능을 보이는 방법을 제안
 - task aware input transformation을 이용하여 모델 구조의 변경을 최소화하면서 전이 학습 효과를 높임
