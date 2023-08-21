@@ -44,7 +44,7 @@ Attention이 정말 설명력을 가지고 있다면...
 
 <br>
 
-## 1. Attention weight가 기존의 feature based measure들과 상관관계가 있어야한다.
+## 1. Attention weight가 기존의 feature based measure들과 상관관계가 있는가?
 ![image](https://github.com/Hyo1Woo/DL_learning/assets/92671224/3cfb302a-ade0-4294-9d10-295e3009c525)
 ![image](https://github.com/Hyo1Woo/DL_learning/assets/92671224/e260caaa-cfcb-4e56-9c12-7b54f7c2d11f)
 ![image](https://github.com/Hyo1Woo/DL_learning/assets/92671224/09b2678e-4361-4d90-97ad-31eda3a6b29f)
@@ -53,18 +53,30 @@ Attention이 정말 설명력을 가지고 있다면...
 
 <br>
 
-## 2. Attention weight가 변경되었을 때, output에서 유의미한 차이가 있어야한다.
+## 2. Attention weight가 변경되었을 때, output에서 유의미한 차이가 있는가?
+
 ### Permutation
+- Attention의 분포를 Permutation으로 변경한 후 output의 분포가 얼마나 달라지는지 관찰
 ![image](https://github.com/Hyo1Woo/DL_learning/assets/92671224/ed6c0752-f603-4f01-8eef-969a9bb865a2)
 
 <br>
 
 ### Adversarial
-![image](https://github.com/Hyo1Woo/DL_learning/assets/92671224/fef0df47-ec8c-4e7f-8ca2-b84a25b17d57)
-
+- Output은 같지만, Attention의 분포는 다른 model을 탐색
+- 다른 parameter들은 고정
 ![image](https://github.com/Hyo1Woo/DL_learning/assets/92671224/a94bf372-0039-4804-8a6d-eb89d45d9ffd)
 
 ![image](https://github.com/Hyo1Woo/DL_learning/assets/92671224/bd37ddb1-8363-4ee4-84f9-ac0af65cd39e)
 
 <br>
 
+## Conclusion
+- Attention weight와 기존의 feature based measure들과의 상관성이 있다고 보기 어려움
+- Attention weight의 변동과 output의 차이에서도 유의미한 차이를 보기 어려움
+- Attention을 모델의 설명력에 대한 뒷받침으로 사용하기에는 무리가 있음 
+
+<br>
+
+## 개인적인 의견
+- 과연 feature based measure와 비교하는 것이 의미있는 비교일까?
+- Output은 같지만, Attention의 분포는 다른 경우를 잘 살펴보면 설명력이 있는 것을 확인할 수 있지 않을까?
