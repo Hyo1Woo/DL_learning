@@ -10,6 +10,7 @@
   ![image](https://github.com/Hyo1Woo/DL_learning/assets/92671224/0eb4e907-11db-4135-8d34-6d0c178a22e1)
 
 <br>
+<br>
 
 ## Assume 
 Attention이 정말 설명력을 가지고 있다면...
@@ -17,12 +18,14 @@ Attention이 정말 설명력을 가지고 있다면...
 2. Attention weight가 변경되었을 때, output에서 유의미한 차이가 있어야한다. (반대로 얘기하자면, 같은 output을 내는 다른 Attention이 있어서는 안된다.)
 
 <br>
+<br>
 
 ## Experiment
 - Model: Bi-LSTM, CNN, Average(linear)
 - Data
   ![image](https://github.com/Hyo1Woo/DL_learning/assets/92671224/6feeabf4-bf34-497c-b7b3-f76f9473bfc2)
 
+<br>
 <br>
 
 ## Statistical terms
@@ -45,12 +48,26 @@ Attention이 정말 설명력을 가지고 있다면...
 <br>
 
 ## 1. Attention weight가 기존의 feature based measure들과 상관관계가 있는가?
+
 ![image](https://github.com/Hyo1Woo/DL_learning/assets/92671224/3cfb302a-ade0-4294-9d10-295e3009c525)
+
+<br>
+
 ![image](https://github.com/Hyo1Woo/DL_learning/assets/92671224/e260caaa-cfcb-4e56-9c12-7b54f7c2d11f)
+
+<br>
+
 ![image](https://github.com/Hyo1Woo/DL_learning/assets/92671224/09b2678e-4361-4d90-97ad-31eda3a6b29f)
+
+<br>
+
 ![image](https://github.com/Hyo1Woo/DL_learning/assets/92671224/79ea2a3e-c42c-4981-80ec-c98dbbb634fe)
+
+<br>
+
 ![image](https://github.com/Hyo1Woo/DL_learning/assets/92671224/17411d8b-72fa-44c1-9562-5ad4b39ecff6)
 
+<br>
 <br>
 
 ## 2. Attention weight가 변경되었을 때, output에서 유의미한 차이가 있는가?
@@ -60,14 +77,19 @@ Attention이 정말 설명력을 가지고 있다면...
 ![image](https://github.com/Hyo1Woo/DL_learning/assets/92671224/ed6c0752-f603-4f01-8eef-969a9bb865a2)
 
 <br>
+<br>
 
 ### Adversarial
 - Output은 같지만, Attention의 분포는 다른 model을 탐색
-- 다른 parameter들은 고정
+- 다른 parameter들은 고정   
+
 ![image](https://github.com/Hyo1Woo/DL_learning/assets/92671224/a94bf372-0039-4804-8a6d-eb89d45d9ffd)
+
+<br>
 
 ![image](https://github.com/Hyo1Woo/DL_learning/assets/92671224/bd37ddb1-8363-4ee4-84f9-ac0af65cd39e)
 
+<br>
 <br>
 
 ## Conclusion
@@ -75,6 +97,7 @@ Attention이 정말 설명력을 가지고 있다면...
 - Attention weight의 변동과 output의 차이에서도 유의미한 차이를 보기 어려움
 - Attention을 모델의 설명력에 대한 뒷받침으로 사용하기에는 무리가 있음 
 
+<br>
 <br>
 
 ## 개인적인 의견
